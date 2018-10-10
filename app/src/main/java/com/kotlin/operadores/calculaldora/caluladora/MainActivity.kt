@@ -14,10 +14,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        println("emr1")
-        var linearLayout = findViewById(R.id.linearLayout) as ConstraintLayout
+
+        //var linearLayout = findViewById(R.id.linearLayout) as ConstraintLayout
+        var linearLayout = findViewById(R.id.linearLayout2) as LinearLayout //ConstraintLayout
         var btnAdd =  Button(this)
-        println("emr1")
         btnAdd.layoutParams = LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT,
                 LinearLayout.LayoutParams.WRAP_CONTENT)
         println("emr2")
